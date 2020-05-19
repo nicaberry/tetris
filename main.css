@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+#tetris {
+    width: 500px;
+    margin: 0 auto;
+}
+#tetris__field {
+    width: 304px;
+    height: 604px;
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.activeCell {
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.stopCell {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(55, 43, 65);
+    border: 1px solid black;
+}
